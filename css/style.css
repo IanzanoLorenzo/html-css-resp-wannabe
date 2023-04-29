@@ -127,3 +127,43 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* tablet */
+
+
+@media screen and (max-width:768px){
+
+    /* generali */
+
+    h1 {
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        margin-bottom: 1.5rem;
+
+    }
+
+    h3 {
+        margin-bottom: 1rem;
+    }
+
+    /* layout */
+
+    .container{
+        width: 100%;
+    }
+
+    .col {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    /* header */
+
+    .site-header {
+        margin-top: 2rem;
+    }
+
+
+ }
