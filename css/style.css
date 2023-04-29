@@ -167,3 +167,67 @@ img {
 
 
  }
+
+ /* telefono */
+
+ @media screen and (max-width: 480px) {
+
+    .row{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h1 {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+    
+    h2 {
+        margin-bottom: 2.5rem;
+        font-size: 2rem;
+        color: #fffffe;
+    }
+    
+    h3 {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    /* lessons */
+
+    .lessons .col{
+        width: 100%;
+    }
+
+    /* steps */
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    /* why us */
+
+    .why-us{
+        background-color: black;
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .why-us img{
+        padding-bottom: 2rem;
+    }
+
+ } 
